@@ -1,0 +1,149 @@
+@media screen and (max-width: 428px){
+
+    main{
+        gap: 40px;
+    }
+
+    .header_links-nav{
+        display: none;
+    }
+    
+    .main_main-content h1{
+        font-size: 30px;
+    }
+
+    .main_main-content p{
+        font-size: 13px;
+    }
+
+    .main-video{
+        width: 360px;
+        height: 230px;
+    }
+
+    .button_watch-more{
+        bottom: -5px;
+        left: 125px;
+    }
+
+    .content_gray-container{
+        padding: 40px 0px;
+        margin: 34px 0px;
+    }
+
+    .content_gray-container h2{
+        font-size: 20px;
+    }
+
+    .content_gray-container p{
+        font-size: 14px;
+        margin: 0px 50px;
+    }
+
+    .content_gray-container img{
+        width: 350px;
+        height: 200px;
+    }
+    
+    .content_gray-container::before{
+        height: 60px;
+    }
+
+    .container_white-gray{
+        padding: 9px;
+    }
+
+   .container_white-gray h2{
+        font-size: 20px;
+   }
+
+   .container_white-gray p{
+        font-size: 14px;
+        
+   }
+
+   .gray-container{
+    top: 1240px;
+    height: 450px;
+   }
+
+   .box_title-and-content h2{
+    font-size: 20px;
+    text-align: center;
+   }
+
+   .four-gray-boxes{
+    flex-wrap: wrap;
+   }
+
+   .img_gray-background{
+    width: 100%;
+   }
+
+   .gray-boxes_content{
+    flex-wrap: wrap;
+    max-width: 170px;
+    
+   }
+
+   .gray-boxes_content p {
+    width: 100%;
+    font-size: 8px;
+   }
+   
+   .gray-boxes_buttons {
+    gap: 10px;
+   }
+
+  .big-blue-box{
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+    height: 283px;
+  }
+
+  .big-blue-box p{
+    font-size: 20px;
+    
+  }
+
+  .big-blue-box{
+    gap: 10px;
+  }
+
+  footer{
+    align-items: center;
+    gap: 20px;
+    font-size: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .container_subscribe{
+    gap: 33px;
+  }
+
+  .bolder__p {
+    font-weight: bolder;
+  }
+
+  .footer_email_label{
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer_email_label input{
+    width: 190px;
+    gap: 5px;
+  }
+
+  .container_info{
+    width: 40%;
+  }
+
+  .footer_img_logo{
+    margin: auto;
+  }
+ 
+
+}
