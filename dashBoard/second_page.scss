@@ -1,0 +1,116 @@
+@import 'Modificadores/fonts';
+
+
+.container__body{
+    .conteiner_main{
+        .container_value{           
+            .vol{
+                position: relative;
+                .value{
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    top: 17px;
+                }                
+            }
+        }
+        .bck_colors{
+            display: flex;
+            .col4_blcontainer{
+                background-color:#5570F1;
+                width: 30%;
+                height: 198px;
+            }
+            .col4_lgbluecontainer{
+                background-color: #97A5EB;
+                width: 30%;
+                height: 198px;
+
+            }
+            .col4_pkbluecontainer{
+                background-color:#FFCC91 ;
+                width: 40%;
+                height: 198px;
+            }
+        }
+        .col8{
+            .grafic{
+                .grafic-display{
+                    position: relative;
+                    .second_bar{
+                        position: absolute;
+                        background-color: #5570F1;
+                        border-radius: 10px;
+                        width: 13px;
+                        height: 180px;
+                        bottom: 30px;
+                    }
+                }
+            }
+        }
+        .col6{
+            position: relative;
+          
+            .newconteirner_col6{
+                position: absolute;
+                top: 80;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                
+                .iphone_inf{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    border-bottom: 1px solid rgb(200, 198, 198);
+                    padding: 10px 0px;
+                    .iphone{
+                        width: 325px;
+                        display: flex;
+                        justify-content: space-between;
+                        font-family: $inter;
+                        font-size: 12px;
+                        color: #45464E;
+                        padding-bottom: 8px;
+                        .iphone-val{
+                            font-family: $inter;
+                            font-weight: 500;
+                            font-size: 14px;
+                            color: #33343A;
+                            
+                        }
+                        .iphone_special{
+                            width: 47px;
+                            height: 15px;
+                            text-align: center;
+                            font-family: $inter;
+                            font-size: 12px;
+                            color: #45464E;
+                            background-color: rgba(245, 126, 119, 0.12);
+                            color:#CC5F5F;
+                            padding: 5px 20px;
+                            border-radius: 10px;
+                        }
+                        .iphone_special-second{
+                            width: 80px;
+                            height: 15px;
+                            text-align: center;
+                            background-color: rgba(50, 147, 111, 0.12);
+                            color:#519C66;
+                            padding: 5px 20px;
+                            border-radius: 10px;
+                           
+                        }
+                    }
+                    
+
+                }
+               
+            }
+            
+
+           
+        }
+    }
+}

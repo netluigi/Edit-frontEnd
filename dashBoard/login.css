@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F4F5FA;
+}
+body .conteiner {
+  width: 443px;
+  height: 627px;
+  margin: 3% auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+body .conteiner .conteiner__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+body .conteiner .conteiner__header .logo {
+  padding-top: 30px;
+}
+body .conteiner .conteiner__header .container_tittle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+body .conteiner .conteiner__header .container_p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8B8D97;
+}
+body .conteiner .conteirner_main {
+  width: 375px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .conteiner .conteirner_main .email, body .conteiner .conteirner_main .password {
+  width: 375px;
+  height: 75px;
+  display: flex;
+  padding: 8px 16px 8px 16px;
+  gap: 5px;
+  background-color: rgba(239, 241, 249, 0.6);
+  border-radius: 10px;
+  margin: 5px;
+}
+body .conteiner .conteirner_main .email .inputs, body .conteiner .conteirner_main .password .inputs {
+  border: transparent;
+  background-color: rgba(239, 241, 249, 0.6);
+}
+body .conteiner .conteirner_main .password {
+  justify-content: space-between;
+  position: relative;
+}
+body .conteiner .conteirner_main .password .conteiner_password {
+  display: flex;
+}
+body .conteiner .conteirner_main .password .recover {
+  position: relative;
+  top: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5570F1;
+}
+body .conteiner .conteirner_main .password .img__eye {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 367px;
+  filter: invert(40%);
+}
+body .conteiner .conteiner_recover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .conteiner .conteiner_recover .recover_p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5570F1;
+}
+body .conteiner .bttn {
+  width: 180px;
+  height: 58px;
+  padding: 17px 16px 17px 16px;
+  border-radius: 10px;
+  background-color: #5570F1;
+  border: transparent;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}/*# sourceMappingURL=login.css.map */

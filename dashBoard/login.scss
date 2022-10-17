@@ -1,0 +1,117 @@
+@import 'Modificadores/reset';
+@import 'Modificadores/colors';
+@import 'Modificadores/fonts';
+body{
+    @include body;
+    background-color: #F4F5FA;       
+        .conteiner{
+            width:443px ;
+            height: 627px;
+            margin: 3% auto;
+            background-color: $primary;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            .conteiner__header{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+               .logo{
+                padding-top: 30px;
+                } 
+                .container_tittle{
+                    font-family: $popp;
+                    font-weight: 400;
+                    font-size: 20px;    
+                }
+                .container_p{
+                   font-family: $inter; 
+                   font-weight: 400;
+                   font-size: 14px;
+                   color:#8B8D97 ;
+                }
+
+
+
+            }
+            .conteirner_main{
+                width: 375px;
+                height: 75px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                                
+                .email,.password{
+                    width: 375px;
+                    height: 75px;
+                    display: flex;                   
+                    padding: 8px 16px 8px 16px;
+                    gap: 5px;
+                    background-color: rgba(239, 241, 249, 0.6);
+                    border-radius: 10px;
+                    margin: 5px;
+                    .inputs{
+                        border: transparent;
+                        background-color: rgba(239, 241, 249, 0.6);
+                        
+                    }
+                }
+                .password{
+                    justify-content:space-between; 
+                    position: relative;                
+                    .conteiner_password{
+                        display: flex;
+                    }
+                    .recover{
+                        position: relative;
+                        top: 40px;
+                        font-family: $inter;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color:#5570F1;
+                    }
+                    .img__eye{
+                        width: 20px;
+                        height: 20px;
+                        position: absolute;
+                        left: 367px;
+                        filter:invert(40%);
+                    }
+
+                }
+                
+            }
+            .conteiner_recover{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .recover_p{
+                    font-family: $inter;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color:#5570F1;
+                }
+           
+                
+            }
+            .bttn{
+                width: 180px;
+                height: 58px;
+                padding: 17px 16px 17px 16px;
+                border-radius: 10px;
+                background-color:#5570F1 ;
+                border: transparent;
+                color: $primary;
+                font-family: $inter;
+                font-weight: 400;
+                font-size: 20px;
+                
+
+            }
+
+            
+            
+        }
+}
